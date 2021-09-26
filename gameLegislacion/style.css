@@ -183,23 +183,32 @@ body {
   }
 }
 
-/* rows-names */
-.rows-names{
+/* order-matrix */
+.order-matrix{
   display: flex;
   flex-direction: row;
   padding: 10px;
   margin: 1rem;
 }
 
-.rows-names section{
-  padding-right: 20rem;
+.order-matrix section{
+  padding-right: 15rem;
+  padding-left: 5rem;
+}
+
+/*names-rows*/
+.names-rows{
+  padding-left: 20rem;
 }
 
 
-h2{
+/* Posiciones para los nombres en Filas*/
+.h2-1{
   padding-top: 3rem;
-  padding-right: 3rem;
-  padding-left: 20rem;
+}
+
+.h2-2{
+  padding-top: 6rem;
 }
 
 
