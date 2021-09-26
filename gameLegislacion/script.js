@@ -1,127 +1,127 @@
 const solid = [
   {
     iconName: "house",
-    solidName: "House",
-    color: "#ff0000"
-  },
-  {
-    iconName: "gulp",
-    solidName: "Gulp",
-    color: "#fd5c63"
-  },
-  {
-    iconName: "amazon",
-    solidName: "Amazon",
-    color: "#333333"
-  },
-  {
-    iconName: "android",
-    solidName: "Android",
-    color: "#a4c639"
-  },
-  {
-    iconName: "4",
-    solidName: "Cuatro",
-    color: "#000000"
+    solidName: "Amarillo",
+    color: "#F1C40F"
   },
   {
     iconName: "house",
-    solidName: "House",
-    color: "#ff0000"
-  },
-  {
-    iconName: "gulp",
-    solidName: "Gulp",
-    color: "#fd5c63"
-  },
-  {
-    iconName: "amazon",
-    solidName: "Amazon",
-    color: "#333333"
-  },
-  {
-    iconName: "android",
-    solidName: "Android",
-    color: "#a4c639"
-  },
-  {
-    iconName: "4",
-    solidName: "Cuatro",
-    color: "#000000"
+    solidName: "Azul",
+    color: "#2980B9"
   },
   {
     iconName: "house",
-    solidName: "House",
-    color: "#ff0000"
-  },
-  {
-    iconName: "gulp",
-    solidName: "Gulp",
-    color: "#fd5c63"
-  },
-  {
-    iconName: "amazon",
-    solidName: "Amazon",
-    color: "#333333"
-  },
-  {
-    iconName: "android",
-    solidName: "Android",
-    color: "#a4c639"
-  },
-  {
-    iconName: "4",
-    solidName: "Cuatro",
-    color: "#000000"
+    solidName: "Rojo",
+    color: "#C0392B"
   },
   {
     iconName: "house",
-    solidName: "House",
-    color: "#ff0000"
-  },
-  {
-    iconName: "gulp",
-    solidName: "Gulp",
-    color: "#fd5c63"
-  },
-  {
-    iconName: "amazon",
-    solidName: "Amazon",
-    color: "#333333"
-  },
-  {
-    iconName: "android",
-    solidName: "Android",
-    color: "#a4c639"
-  },
-  {
-    iconName: "4",
-    solidName: "Cuatro",
-    color: "#000000"
+    solidName: "Verde",
+    color: "#27AE60"
   },
   {
     iconName: "house",
-    solidName: "House",
-    color: "#ff0000"
+    solidName: "Blanco",
+    color: "#BDC3C7"
   },
   {
-    iconName: "gulp",
-    solidName: "Gulp",
+    iconName: "flag",
+    solidName: "Noruego",
+    color: "#C0392B"
+  },
+  {
+    iconName: "flag",
+    solidName: "Danes",
+    color: "#9B59B6"
+  },
+  {
+    iconName: "flag",
+    solidName: "Ingles",
+    color: "#34495E"
+  },
+  {
+    iconName: "flag",
+    solidName: "Aleman",
+    color: "#34495E"
+  },
+  {
+    iconName: "flag",
+    solidName: "Sueco",
+    color: "#F1C40F"
+  },
+  {
+    iconName: "droplet",
+    solidName: "Agua",
+    color: "#2980B9"
+  },
+  {
+    iconName: "mug-hot",
+    solidName: "Te",
     color: "#fd5c63"
   },
   {
-    iconName: "amazon",
-    solidName: "Amazon",
+    iconName: "blender",
+    solidName: "Leche",
     color: "#333333"
   },
   {
-    iconName: "android",
+    iconName: "mug-saucer",
     solidName: "Android",
     color: "#a4c639"
   },
   {
-    iconName: "4",
-    solidName: "Cuatro",
+    iconName: "beer-mug-empty",
+    solidName: "Cerveza",
+    color: "#000000"
+  },
+  {
+    iconName: "joint",
+    solidName: "Dunhill",
+    color: "#ff0000"
+  },
+  {
+    iconName: "smoking",
+    solidName: "blends",
+    color: "#fd5c63"
+  },
+  {
+    iconName: "joint",
+    solidName: "pallmall",
+    color: "#333333"
+  },
+  {
+    iconName: "smoking",
+    solidName: "prince",
+    color: "#a4c639"
+  },
+  {
+    iconName: "joint",
+    solidName: "bluemaster",
+    color: "#000000"
+  },
+  {
+    iconName: "cat",
+    solidName: "Gato",
+    color: "#ff0000"
+  },
+  {
+    iconName: "horse",
+    solidName: "Caballo",
+    color: "#fd5c63"
+  },
+  {
+    iconName: "crow",
+    solidName: "Pajaros",
+    color: "#333333"
+  },
+  {
+    iconName: "fish",
+    solidName: "Pez",
+    color: "#a4c639"
+  },
+  {
+    iconName: "dog",
+    solidName: "Perro",
     color: "#000000"
   }
 ];
