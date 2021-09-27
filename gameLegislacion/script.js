@@ -1,127 +1,152 @@
 const solid = [
   {
     iconName: "house",
-    solidName: "Amarillo",
+    solidName: "A",
+    solidN: "Amarillo",
     color: "#F1C40F"
   },
   {
-    iconName: "house",
-    solidName: "Azul",
+    iconName: "house-chimney",
+    solidName: "B",
+    solidN: "Azul",
     color: "#2980B9"
   },
   {
-    iconName: "house",
-    solidName: "Rojo",
+    iconName: "house-crack",
+    solidName: "C",
+    solidN: "Azul",
     color: "#C0392B"
   },
   {
-    iconName: "house",
-    solidName: "Verde",
+    iconName: "house-laptop",
+    solidName: "D",
+    solidN: "Verde",    
     color: "#27AE60"
   },
   {
-    iconName: "house",
-    solidName: "Blanco",
-    color: "#BDC3C7"
+    iconName: "house-user",
+    solidName: "E",
+    solidN: "Blanco",  
+    color: "#85929E"
   },
   {
     iconName: "flag",
-    solidName: "Noruego",
+    solidName: "F",
+    solidN: "Noruego",
     color: "#C0392B"
   },
   {
-    iconName: "flag",
-    solidName: "Danes",
+    iconName: "flag-checkered",
+    solidName: "G",
+    solidN: "Danes",
     color: "#9B59B6"
   },
   {
-    iconName: "flag",
-    solidName: "Ingles",
+    iconName: "flag-usa",
+    solidName: "H",
+    solidN: "Ingles",
     color: "#34495E"
   },
   {
-    iconName: "flag",
-    solidName: "Aleman",
+    iconName: "font-awesome",
+    solidName: "I",
+    solidN: "Aleman",
     color: "#34495E"
   },
   {
-    iconName: "flag",
-    solidName: "Sueco",
+    iconName: "shirt",
+    solidName: "J",
+    solidN: "Sueco",
     color: "#F1C40F"
   },
   {
     iconName: "droplet",
-    solidName: "Agua",
+    solidName: "K",
+    solidN: "Agua",
     color: "#2980B9"
   },
   {
     iconName: "mug-hot",
-    solidName: "Te",
+    solidName: "L",
+    solidN: "Te",
     color: "#fd5c63"
   },
   {
     iconName: "blender",
-    solidName: "Leche",
+    solidName: "M",
+    solidN: "Leche",
     color: "#333333"
   },
   {
     iconName: "mug-saucer",
-    solidName: "Android",
+    solidName: "N",
+    solidN: "Cafe",
     color: "#a4c639"
   },
   {
     iconName: "beer-mug-empty",
-    solidName: "Cerveza",
+    solidName: "O",
+    solidN: "Cerveza",
     color: "#000000"
   },
   {
     iconName: "joint",
-    solidName: "Dunhill",
+    solidName: "P",
+    solidN: "Dunhill",
     color: "#ff0000"
   },
   {
     iconName: "smoking",
-    solidName: "blends",
+    solidName: "Q",
+    solidN: "blends",
     color: "#fd5c63"
   },
   {
-    iconName: "joint",
-    solidName: "pallmall",
+    iconName: "ban-smoking",
+    solidName: "R",
+    solidN: "pallmall",
     color: "#333333"
   },
   {
-    iconName: "smoking",
-    solidName: "prince",
+    iconName: "bong",
+    solidName: "S",
+    solidN: "prince",
     color: "#a4c639"
   },
   {
-    iconName: "joint",
-    solidName: "bluemaster",
+    iconName: "smog",
+    solidName: "T",
+    solidN: "bluemaster",
     color: "#000000"
   },
   {
     iconName: "cat",
-    solidName: "Gato",
+    solidName: "U",
+    solidN: "Gato",
     color: "#ff0000"
   },
   {
     iconName: "horse",
-    solidName: "Caballo",
+    solidName: "V",
+    solidN: "Caballo",
     color: "#fd5c63"
   },
   {
     iconName: "crow",
-    solidName: "Pajaros",
+    solidName: "W",
+    solidN: "Pajaros",
     color: "#333333"
   },
   {
     iconName: "fish",
-    solidName: "Pez",
+    solidName: "X",
+    solidN: "Pez",
     color: "#a4c639"
   },
   {
     iconName: "dog",
-    solidName: "Perro",
+    solidName: "Y",
+    solidN: "Perro",
     color: "#000000"
   }
 ];
@@ -159,6 +184,7 @@ function initiateGame() {
   for (let i = 0; i < alphabeticallySortedRandomDroppableSolids.length; i++) {
     matchingPairs.insertAdjacentHTML("beforeend", `
       <div class="matching-pair">
+      
         <span class="droppable" data-solid="${alphabeticallySortedRandomDroppableSolids[i].iconName}"></span>
       </div>
     `);
