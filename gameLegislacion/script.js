@@ -150,7 +150,9 @@ function initiateGame() {
   // Create "draggable-items" and append to DOM
   for (let i = 0; i < randomDraggableSolids.length; i++) {
     draggableItems.insertAdjacentHTML("beforeend", `
-      <i class="fas fa-${randomDraggableSolids[i].iconName} draggable" draggable="true" style="color: ${randomDraggableSolids[i].color};" id="${randomDraggableSolids[i].iconName}"></i>
+      <i class="fas fa-${randomDraggableSolids[i].iconName} draggable" draggable="true" style="color: ${randomDraggableSolids[i].color};" id="${randomDraggableSolids[i].iconName}">
+      <span class="letter-span">${randomDraggableSolids[i].solidN}</span>
+      </i>
     `);
   }
 
@@ -159,6 +161,7 @@ function initiateGame() {
   for (let i = 0; i < alphabeticallySortedRandomDroppableSolids.length; i++) {
     matchingPairs.insertAdjacentHTML("beforeend", `
       <div class="matching-pair">
+      <span class="label">${alphabeticallySortedRandomDroppableSolids[i].solidName}</span>
         <span class="droppable" data-solid="${alphabeticallySortedRandomDroppableSolids[i].iconName}"></span>
       </div>
     `);

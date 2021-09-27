@@ -222,6 +222,15 @@ body {
 }
 
 
+/* letter-span */
+.letter-span{
+  font-size: 1px;
+  position: relative;
+  top: 4px;
+  right: 2.8rem;
+}
+
+
 @media (max-width: 600px) {
   html {
     font-size: 14px;
