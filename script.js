@@ -14,7 +14,7 @@ const solid = [
   {
     iconName: "house-crack",
     solidName: "C",
-    solidN: "Azul",
+    solidN: "Rojo",
     color: "#C0392B"
   },
   {
