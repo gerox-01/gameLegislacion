@@ -123,7 +123,7 @@ body {
 .container {
   width: 200px;
   height: 200px;
-  margin: 100px auto 115px;
+  margin: 150px auto 115px;
   perspective: 1000px;
   position: relative;
 }
@@ -139,15 +139,15 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: crimson;
+  background: #2E86C1;
   border: 2px solid black;
 }
 
 .face p {
   position: absolute;
   top: 60px;
-  right: 14px;
-  color: crimson;
+  right: 38px;
+  color: #2E86C1;
   background: #FFF;
   font-size: 35px;
   line-height: 74px;
@@ -230,6 +230,16 @@ body {
   right: 52px;
 }
 
+/* title-1 */
+.title-1{
+  position:relative;
+  margin: 10px;
+  color: #0B5345;
+  font-weight: bold;
+  text-align: center;
+  top: 20px;
+}
+
 
 @media (max-width: 600px) {
   html {
@@ -242,3 +252,5 @@ body {
     transform: translateX(7rem);
   }
 }
+
+
