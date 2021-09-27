@@ -241,6 +241,50 @@ body {
 }
 
 
+
+/* listas */
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type:decimal;
+}
+
+
+/* IMAGES: */
+
+li {
+  margin: 0;
+  padding: 15px 0 15px 60px;
+  list-style: none;
+  background-image: url("path_to_image");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+}
+
+
+
+/* Define the color of each bullet point on the list */
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 16px;
+}
+
+li:before {
+  content: "•";         /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: blue; 
+}
+
+
 @media (max-width: 600px) {
   html {
     font-size: 14px;
