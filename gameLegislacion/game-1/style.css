@@ -1,17 +1,107 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #eee;
   color: #111;
+  background-color: #f1c40f;
+  -webkit-animation: color 5s ease-in 0s infinite alternate running;
+  -moz-animation: color 5s linear 0s infinite alternate running;
+  animation: color 5s linear 0s infinite alternate running;
+}
+
+@-webkit-keyframes color {
+  0% {
+      background-color: #f1c40f;
+  }
+  32% {
+      background-color: #e74c3c;
+  }
+  55% {
+      background-color: #9b59b6;
+  }
+  76% {
+      background-color: #16a085;
+  }
+  100% {
+      background-color: #2ecc71;
+  }
+}
+
+@-moz-keyframes color {
+  0% {
+      background-color: #f1c40f;
+  }
+  32% {
+      background-color: #e74c3c;
+  }
+  55% {
+      background-color: #9b59b6;
+  }
+  76% {
+      background-color: #16a085;
+  }
+  100% {
+      background-color: #2ecc71;
+  }
+}
+
+@keyframes color {
+  0% {
+      background-color: #f1c40f;
+  }
+  32% {
+      background-color: #e74c3c;
+  }
+  55% {
+      background-color: #9b59b6;
+  }
+  76% {
+      background-color: #16a085;
+  }
+  100% {
+      background-color: #2ecc71;
+  }
+}
+
+/* TEXT */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.waviy {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One';
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
 }
 
 .score {
+  padding-top: 100px;
   font-family: monospace;
   text-align: center;
   font-size: 2rem;
@@ -76,6 +166,7 @@ body {
   position: relative;
   display: flex;
   flex-flow: wrap;
+  justify-content: space-between;
   transition: opacity 0.5s;
 }
 .matching-pair {
@@ -140,7 +231,7 @@ body {
   width: 100%;
   height: 100%;
   background: #2E86C1;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 .face p {
@@ -199,6 +290,7 @@ body {
 /*names-rows*/
 .names-rows{
   padding-left: 10rem;
+  color: white;
 }
 
 
@@ -214,17 +306,23 @@ body {
 /* names-columns */
 .names-columns{
   display: flex;
+  color: white;
   flex-direction: row;
+  padding-top: 50px;
   padding-left: 30rem;
 }
 .h2--1{
-  padding-left: 2.8rem;
+  padding-left: 3.2rem;
+}
+.h2--2{
+  padding-left: 4.5rem;
 }
 
 
 /* letter-span */
 .letter-span{
   font-size: 8px;
+  font-weight: bold;
   position: relative;
   top: 37px;
   right: 52px;

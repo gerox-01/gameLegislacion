@@ -267,7 +267,7 @@ function drop(event) {
 }
 
 // Other Event Listeners
-playAgainBtn.addEventListener("click", customAlert.alert('Bueno, lo lograste tu o Google. Lo importante es entretenerse un rato.','Lo has logrado!'));
+playAgainBtn.addEventListener("click", playAgainBtnClick);
 function playAgainBtnClick() {
   playAgainBtn.classList.remove("play-again-btn-entrance");
   correct = 0;
@@ -327,7 +327,7 @@ function CustomAlert(){
       document.getElementById('dialogboxhead').innerHTML = '<i class="fa fa-exclamation-circle" aria-hidden="true"></i> '+ title;
     }
     document.getElementById('dialogboxbody').innerHTML = message;
-    document.getElementById('dialogboxfoot').innerHTML = '<button class="pure-material-button-contained active" onclick="customAlert.ok()">OK</button>';
+    document.getElementById('dialogboxfoot').innerHTML = '<button class="pure-material-button-contained active" onclick="customAlert.nice()">OK</button>';
   }
   
   this.ok = function(){
