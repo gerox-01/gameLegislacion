@@ -2,158 +2,105 @@ const solid = [
   {
     iconName: "house",
     solidName: "A",
-    solidN: "Amarillo",
+    solidN: "car",
     color: "#F1C40F"
   },
   {
-    iconName: "house-chimney",
+    iconName: "car-crash",
     solidName: "B",
-    solidN: "Azul",
+    solidN: "Tucson",
     color: "#2980B9"
   },
   {
-    iconName: "house-crack",
+    iconName: "car-rear",
     solidName: "C",
-    solidN: "Rojo",
+    solidN: "Ferrari",
     color: "#C0392B"
   },
   {
-    iconName: "house-laptop",
+    iconName: "car-side",
     solidName: "D",
-    solidN: "Verde",    
+    solidN: "Toyota",    
     color: "#27AE60"
   },
   {
-    iconName: "house-user",
+    iconName: "caravan",
     solidName: "E",
-    solidN: "Blanco",  
+    solidN: "Volkswagen",  
     color: "#85929E"
   },
   {
-    iconName: "flag",
+    iconName: "bus",
     solidName: "F",
-    solidN: "Noruego",
+    solidN: "Lotus",
     color: "#C0392B"
   },
   {
-    iconName: "flag-checkered",
+    iconName: "bus-simple",
     solidName: "G",
-    solidN: "Danes",
+    solidN: "Mustang",
     color: "#9B59B6"
   },
   {
-    iconName: "flag-usa",
+    iconName: "van-shuttle",
     solidName: "H",
-    solidN: "Ingles",
+    solidN: "Jeep",
     color: "#34495E"
   },
   {
-    iconName: "font-awesome",
+    iconName: "brush",
     solidName: "I",
-    solidN: "Aleman",
-    color: "#34495E"
+    solidN: "Azul",
+    color: "#2471A3"
   },
   {
-    iconName: "shirt",
+    iconName: "palette",
     solidName: "J",
-    solidN: "Sueco",
-    color: "#F1C40F"
+    solidN: "Verde",
+    color: "#229954"
   },
   {
     iconName: "droplet",
     solidName: "K",
-    solidN: "Agua",
-    color: "#2980B9"
+    solidN: "Rojo",
+    color: "#CB4335"
   },
   {
-    iconName: "mug-hot",
+    iconName: "paint-roller",
     solidName: "L",
-    solidN: "Te",
-    color: "#fd5c63"
+    solidN: "Crema",
+    color: "#E6B0AA"
   },
   {
-    iconName: "blender",
+    iconName: "eye-dropper",
     solidName: "M",
-    solidN: "Leche",
-    color: "#333333"
+    solidN: "Gris",
+    color: "#ABB2B9"
   },
   {
-    iconName: "mug-saucer",
+    iconName: "fill",
     solidName: "N",
-    solidN: "Cafe",
-    color: "#a4c639"
+    solidN: "Amarillo",
+    color: "#F1C40F"
   },
   {
-    iconName: "beer-mug-empty",
+    iconName: "fill-drip",
     solidName: "O",
-    solidN: "Cerveza",
-    color: "#000000"
+    solidN: "Negro",
+    color: "#17202A"
   },
   {
-    iconName: "joint",
+    iconName: "paint-brush",
     solidName: "P",
-    solidN: "Dunhill",
-    color: "#ff0000"
+    solidN: "Blanco",
+    color: "#17202A"
   },
-  {
-    iconName: "smoking",
-    solidName: "Q",
-    solidN: "blends",
-    color: "#fd5c63"
-  },
-  {
-    iconName: "ban-smoking",
-    solidName: "R",
-    solidN: "pallmall",
-    color: "#333333"
-  },
-  {
-    iconName: "bong",
-    solidName: "S",
-    solidN: "prince",
-    color: "#a4c639"
-  },
-  {
-    iconName: "smog",
-    solidName: "T",
-    solidN: "bluemaster",
-    color: "#000000"
-  },
-  {
-    iconName: "cat",
-    solidName: "U",
-    solidN: "Gato",
-    color: "#ff0000"
-  },
-  {
-    iconName: "horse",
-    solidName: "V",
-    solidN: "Caballo",
-    color: "#fd5c63"
-  },
-  {
-    iconName: "crow",
-    solidName: "W",
-    solidN: "Pajaros",
-    color: "#333333"
-  },
-  {
-    iconName: "fish",
-    solidName: "X",
-    solidN: "Pez",
-    color: "#a4c639"
-  },
-  {
-    iconName: "dog",
-    solidName: "Y",
-    solidN: "Perro",
-    color: "#000000"
-  }
+ 
 ];
 let correct = 0;
 let total = 0;
-const totalDraggableItems = 25;
-const totalMatchingPairs = 25; // Should be <= totalDraggableItems
+const totalDraggableItems = 16;
+const totalMatchingPairs = 16; // Should be <= totalDraggableItems
 
 const scoreSection = document.querySelector(".score");
 const correctSpan = scoreSection.querySelector(".correct");
