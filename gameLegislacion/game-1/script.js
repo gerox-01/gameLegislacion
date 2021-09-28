@@ -152,8 +152,8 @@ const solid = [
 ];
 let correct = 0;
 let total = 0;
-const totalDraggableItems = 25;
-const totalMatchingPairs = 25; // Should be <= totalDraggableItems
+const totalDraggableItems = 1;
+const totalMatchingPairs = 1; // Should be <= totalDraggableItems
 
 const scoreSection = document.querySelector(".score");
 const correctSpan = scoreSection.querySelector(".correct");
@@ -337,3 +337,7 @@ function CustomAlert(){
 }
 
 let customAlert = new CustomAlert();
+
+function Inicio(){
+  return window.location.replace('./../game-2/game-2.html');
+}
