@@ -209,9 +209,9 @@ function fauxClick(x, y) {
 
 
 function Carro(){
-  return window.location.replace('./game-2/game-2.html');
+  return window.location.replace('./gameLegislacion/game-2/game-2.html');
 }
 
 function Einstein(){
-  return window.location.replace('./game-1/game-1.html');
+  return window.location.replace('./gameLegislacion/game-1/game-1.html');
 }
