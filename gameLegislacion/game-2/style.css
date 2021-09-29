@@ -193,7 +193,7 @@ body {
 }
 .order-matrix section{
   padding-right: 15rem;
-  padding-left: 5rem;
+  padding-left: 7rem;
 }
 
 /*names-rows*/
@@ -215,7 +215,7 @@ body {
 .names-columns{
   display: flex;
   flex-direction: row;
-  padding-left: 23rem;
+  padding-left: 25rem;
 }
 .h2--1{
   padding-left: 1.0rem;

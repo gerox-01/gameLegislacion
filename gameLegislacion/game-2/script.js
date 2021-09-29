@@ -1,6 +1,6 @@
 const solid = [
   {
-    iconName: "house",
+    iconName: "truck-monster",
     solidName: "A",
     solidN: "car",
     color: "#F1C40F"
