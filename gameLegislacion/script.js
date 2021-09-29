@@ -206,3 +206,12 @@ function fauxClick(x, y) {
   fauxClick.pageY = y;
   document.dispatchEvent(fauxClick);
 }
+
+
+function Carro(){
+  return window.location.replace('./game-2/game-2.html');
+}
+
+function Einstein(){
+  return window.location.replace('./game-1/game-1.html');
+}

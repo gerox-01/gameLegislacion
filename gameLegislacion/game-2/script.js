@@ -251,5 +251,5 @@ function generateRandomItemsArray(n, originalArray) {
 }
 
 function Inicio(){
-  return window.location.replace('./../dist/index.html');
+  return window.location.replace('./../index.html');
 }
