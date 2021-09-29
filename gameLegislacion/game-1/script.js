@@ -152,8 +152,8 @@ const solid = [
 ];
 let correct = 0;
 let total = 0;
-const totalDraggableItems = 1;
-const totalMatchingPairs = 1; // Should be <= totalDraggableItems
+const totalDraggableItems = 25;
+const totalMatchingPairs = 25; // Should be <= totalDraggableItems
 
 const scoreSection = document.querySelector(".score");
 const correctSpan = scoreSection.querySelector(".correct");
