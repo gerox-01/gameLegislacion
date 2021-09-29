@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 
 <head>
   <meta charset="UTF-8" />
@@ -7,35 +8,45 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/solid.min.css" />
   <link rel="stylesheet" href="./style.css" />
-  
+  <link rel="icon" href="./../assets/controller.svg">
 </head>
 
 <body>
   <!-- titulo -->
-  <div class="title-1">
+  <!-- <div class="title-1">
     <h1>ACERTIJO DE EINSTEIN</h1>
+  </div> -->
+  <div>
+      <button onclick="Inicio()" class="volver btn"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+    </i>
   </div>
-
-  <!-- Cubo -->
-  <div class="container">
-    <div class="cube">
-      <div class="face front">
-        <p>Team</p>
-      </div>
-      <div class="face back"></div>
-      <div class="face right">
-        <p>Geminis</p>
-      </div>
-      <div class="face left"></div>
-      <div class="face top"></div>
-      <div class="face bottom"></div>
-    </div>
-  </div>
+  <div class="waviy">
+    <span style="--i:1">A</span>
+    <span style="--i:2">C</span>
+    <span style="--i:3">E</span>
+    <span style="--i:4">R</span>
+    <span style="--i:5">T</span>
+    <span style="--i:6">I</span>
+    <span style="--i:7">J</span>
+    <span style="--i:8">O</span>
+    <span style="--i:9">-</span>
+    <span style="--i:10">D</span>
+    <span style="--i:1">E</span>
+    <span style="--i:2">-</span>
+    <span style="--i:3">E</span>
+    <span style="--i:4">I</span>
+    <span style="--i:5">N</span>
+    <span style="--i:5">S</span>
+    <span style="--i:6">T</span>
+    <span style="--i:7">E</span>
+    <span style="--i:8">I</span>
+    <span style="--i:9">N</span>
+   </div>
 
   <!-- partial:index.partial.html -->
   <section class="score">
     <span class="correct">0</span>/<span class="total">0</span>
-    <button id="play-again-btn">Play Again</button>
+    <button id="play-again-btn">Exitos, ¡juega otra vez!</button>
   </section>
   <section class="draggable-items">
     <!-- Will be dynamically populated - Example Element: -->
@@ -45,7 +56,7 @@
     <h2>CASA 1</h2>
     <h2 class="h2--1">CASA 2</h2>
     <h2 class="h2--1">CASA 3</h2>
-    <h2 class="h2--1">CASA 4</h2>
+    <h2 class="h2--2">CASA 4</h2>
     <h2 class="h2--1">CASA 5</h2>
   </div>
   <section class="order-matrix">
@@ -68,8 +79,16 @@
   <section>
     <div  class="pistas-box">
     <div class="content-pistas">
-      <h2 style="text-align: center;">Acertijo de Einstein</h2>
-      <ul>
+      <div class="waviy">
+        <span>H</span>
+        <span>E</span>
+        <span>C</span>
+        <span>H</span>
+        <span>O</span>
+        <span>S</span>
+        <span style="--i:7">:</span>
+       </div>
+      <ul style="padding-top: 2rem;">
         <li>Por una calle existen 5 casas de diferentes colores.</li>
         <li>En cada una de las casas vive una persona con una diferente nacionalidad.</li>
         <li>Los 5 dueños beben una determinada bebida,</li>
@@ -79,8 +98,16 @@
       </ul>
     </div>
     <div class="key-pistas">
-      <h2 style="padding-left: 150px;">Claves:</h2>
-      <ol>
+      <div class="waviy">
+        <span>C</span>
+        <span>L</span>
+        <span>A</span>
+        <span>V</span>
+        <span>E</span>
+        <span>S</span>
+        <span style="--i:7">:</span>
+       </div>
+      <ol style="padding-left: 5rem; padding-top: 2rem;">
         <li>El británico vive en la casa roja.</li>
         <li>El sueco tiene como mascota un perro.</li>
         <li>El danés toma té.</li>
@@ -102,11 +129,28 @@
   </section>
 
 
-  <button onclick="customAlert.alert('Bueno, lo lograste tu o Google. Lo importante es entretenerse un rato.','Lo has logrado!')">
-    Custom Alert With Heading
-  </button>
+  <!-- Cubo -->
+  <div class="container">
+    <div class="cube">
+      <div class="face front">
+        <p>Team</p>
+      </div>
+      <div class="face back"></div>
+      <div class="face right">
+        <p>Geminis</p>
+      </div>
+      <div class="face left"></div>
+      <div class="face top"></div>
+      <div class="face bottom"></div>
+    </div>
+  </div>
+
+  
   <!-- partial -->
   <script src="./script.js"></script>
+  <!-- <button onclick="CustomAlert('Bueno, lo lograste tu o Google. Lo importante es entretenerse un rato.','Lo has logrado!')">
+    Custom Alert With Heading
+  </button> -->
   <!-- <script href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/solid.min.js"></script> -->
 </body>
 
