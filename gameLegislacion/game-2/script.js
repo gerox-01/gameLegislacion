@@ -2,14 +2,14 @@ const solid = [
   {
     iconName: "truck-monster",
     solidName: "A",
-    solidN: "car",
-    color: "#F1C40F"
+    solidN: "Kia",
+    color: "#0F71F1"
   },
   {
     iconName: "car-crash",
     solidName: "B",
     solidN: "Tucson",
-    color: "#2980B9"
+    color: "#2FB929"
   },
   {
     iconName: "car-rear",
@@ -21,7 +21,7 @@ const solid = [
     iconName: "car-side",
     solidName: "D",
     solidN: "Toyota",    
-    color: "#27AE60"
+    color: "#E6B0AA"
   },
   {
     iconName: "caravan",
@@ -33,31 +33,31 @@ const solid = [
     iconName: "bus",
     solidName: "F",
     solidN: "Lotus",
-    color: "#C0392B"
+    color: "#EBF600"
   },
   {
     iconName: "bus-simple",
     solidName: "G",
     solidN: "Mustang",
-    color: "#9B59B6"
+    color: "#000000"
   },
   {
     iconName: "van-shuttle",
     solidName: "H",
     solidN: "Jeep",
-    color: "#34495E"
+    color: "#B5B9BE"
   },
   {
     iconName: "brush",
     solidName: "I",
     solidN: "Azul",
-    color: "#2471A3"
+    color: "#0F71F1"
   },
   {
     iconName: "palette",
     solidName: "J",
     solidN: "Verde",
-    color: "#229954"
+    color: "#2FB929"
   },
   {
     iconName: "droplet",
@@ -75,25 +75,25 @@ const solid = [
     iconName: "eye-dropper",
     solidName: "M",
     solidN: "Gris",
-    color: "#ABB2B9"
+    color: "#85929E"
   },
   {
     iconName: "fill",
     solidName: "N",
     solidN: "Amarillo",
-    color: "#F1C40F"
+    color: "#EBF600"
   },
   {
     iconName: "fill-drip",
     solidName: "O",
     solidN: "Negro",
-    color: "#17202A"
+    color: "#000000"
   },
   {
     iconName: "paint-brush",
     solidName: "P",
     solidN: "Blanco",
-    color: "#17202A"
+    color: "#B5B9BE"
   },
  
 ];
@@ -144,8 +144,6 @@ function initiateGame() {
 
   draggableElements.forEach(elem => {
     elem.addEventListener("dragstart", dragStart);
-    // elem.addEventListener("drag", drag);
-    // elem.addEventListener("dragend", dragEnd);
   });
 
   droppableElements.forEach(elem => {
